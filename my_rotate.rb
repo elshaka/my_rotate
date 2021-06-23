@@ -1,7 +1,8 @@
 def my_rotate(a, k)
   n = a.length
-  rotate = k % n
+  return [] if n == 0
 
+  rotate = k % n
   return a if rotate == 0
 
   b = []
